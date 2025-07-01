@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HERE AND NOW AI - Fraud Detection</title>
+  <link rel="icon" href="https://raw.githubusercontent.com/hereandnowai/images/refs/heads/main/logos/favicon-logo-with-name.png" type="image/png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --brand-primary: #FFDF00; /* Golden Yellow */
+      --brand-secondary: #004040; /* Dark Teal */
+      --brand-text-on-primary: #000000; /* Black text on Golden Yellow */
+      --brand-text-on-secondary: #FFFFFF; /* White text on Dark Teal */
+      --brand-primary-hover: #e6c600; /* Darker Golden Yellow for hover */
+      --brand-secondary-hover: #003333; /* Darker Teal for hover */
+    }
+
+    /* Custom scrollbar for better aesthetics */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #374151; /* slate-700 */
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #6b7280; /* slate-500 */
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--brand-primary);
+    }
+    body {
+      background-color: #111827; /* bg-slate-900 */
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "recharts": "https://esm.sh/recharts@^2.15.3"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-slate-900">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

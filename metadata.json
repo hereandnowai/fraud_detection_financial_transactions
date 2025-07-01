@@ -1,0 +1,6 @@
+{
+  "name": "fraud_detection_financial_transactions",
+  "description": "Upload your transaction data (.csv) to detect fraudulent activity using AI-powered analysis. Assigns risk scores and tags transactions for review.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
